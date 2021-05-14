@@ -1,0 +1,64 @@
+{
+  "name": "buscaminas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 8080",
+    "main": "main.js",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "webpack": "wedpack --mode development",
+    "dev": "webpack-dev-server --mode development --open",
+    "prod": "webpack --mode production"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "connect-history-api-fallback": "^1.6.0",
+    "core-js": "^3.6.4",
+    "css-loader": "^3.4.2",
+    "express": "^4.17.1",
+    "save-dev": "0.0.1-security",
+    "style-loader": "^1.1.3",
+    "vue": "^2.6.11",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-middleware": "^3.7.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "html-webpack-plugin": "^3.2.0",
+    "vue-loader": "^15.9.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "author": "Juan Melo",
+  "license": "ISC"
+}

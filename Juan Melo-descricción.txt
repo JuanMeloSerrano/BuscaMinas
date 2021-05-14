@@ -1,0 +1,8 @@
+El juego lo cree con el framework Vue.js y css grid.
+Tambien utilicé tegnología webpack para la gestión de de dependencias, con el cual
+comprimí todo el juego en una carpeta llamada dist, la que contiene el archivo index y un 
+archivo bundle.js que es donde está todo el codigo comprimido. Es decir, que con los archivos de
+la carpeta dist el juego funciona.
+profesor tambíen le adjunto la carpeta "buscaminas" donde están todos los archivos separados y 
+tambíen la anterir carpeta mencionada "dist".
+Para hacerlo me guié de un curso vastante completo en youtube.
